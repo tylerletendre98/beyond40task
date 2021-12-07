@@ -1,5 +1,6 @@
 .reviewsAverage-container{
     padding-left: 10%;
+    align-items: center;
 }
 
 
@@ -12,7 +13,6 @@
     color: yellow;
 }
 
-.reviewsAverage-phrase p{
-    font-size: small;
-
+.reviewAverage-phrase{
+    width: 170px;
 }
