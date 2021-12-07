@@ -1,7 +1,7 @@
 import Header from './components/header/Header';
 import ReviewsAverage from './components/reviewsAverage/ReviewsAverage'
-import ReviewerStars from './components/reviewerStars/ReviewerStars';
 import WriteReviewButton from './components/writeReviewButton/WriteReviewButton';
+import AskQuestionButton from './components/AskQuestion/AskQuestionButton';
 import './App.css'
 
 
@@ -17,7 +17,8 @@ function App() {
         <div>
           <ReviewsAverage/> 
         </div>
-        <div className="button-left">
+        <div className="review-button">
+          <AskQuestionButton/>
           <WriteReviewButton/>
         </div>
       </div>

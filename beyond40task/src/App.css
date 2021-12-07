@@ -1,7 +1,12 @@
 .body{
   display: flex;
+  margin-left: 10%;
 }
 
-.button-left{
-  position: right;
+.review-button{
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
+  display: flex;
+  justify-content: space-between;
 }
