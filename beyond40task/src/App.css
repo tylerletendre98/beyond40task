@@ -1,6 +1,7 @@
 .body{
   display: flex;
   margin-left: 10%;
+  margin-top: 40px;
 }
 
 .review-button{

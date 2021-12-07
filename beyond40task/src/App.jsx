@@ -2,6 +2,8 @@ import Header from './components/header/Header';
 import ReviewsAverage from './components/reviewsAverage/ReviewsAverage'
 import WriteReviewButton from './components/writeReviewButton/WriteReviewButton';
 import AskQuestionButton from './components/AskQuestion/AskQuestionButton';
+import ProgressBars from './components/progessbars/ProgressBars';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 
 
@@ -16,6 +18,9 @@ function App() {
       <div className="body">
         <div>
           <ReviewsAverage/> 
+        </div>
+        <div>
+          <ProgressBars/>
         </div>
         <div className="review-button">
           <AskQuestionButton/>

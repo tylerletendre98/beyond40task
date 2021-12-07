@@ -1,0 +1,30 @@
+.progress-bar-container{
+    margin-left: 50px;
+    width: 100%;
+    max-height: 150px;
+    max-width: 350px;
+    border-right-width: 1px;
+    border-right-color: lightgray;
+    border-right-style: solid;
+    border-left-color: lightgray;
+    border-left-width: 1px;
+    border-left-style: solid;
+    padding-left: 30px;
+    padding-bottom: 50px;
+   
+}
+.progress-bars{
+    align-items: center;
+    display: flex;
+    height: 30px;
+
+}
+.progress{
+    margin-left: 15px;
+}
+
+.outside-label{
+    margin-top: 10px;
+    margin-left: 5px;
+    color:#777
+}

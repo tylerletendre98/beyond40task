@@ -7,3 +7,8 @@
     margin-left: 10px;
     box-shadow: rgba(136,136,136,0.42) 2px 3px 5px 0px;
 }
+
+.button  :hover{
+    box-shadow: none;
+    cursor:pointer
+}
