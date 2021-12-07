@@ -1,5 +1,6 @@
 import Header from './components/header/Header';
 import ReviewsAverage from './components/reviewsAverage/ReviewsAverage'
+import ReviewerStars from './components/reviewerStars/ReviewerStars';
 
 
 
@@ -11,7 +12,7 @@ function App() {
         <Header/>
       </div>
       <div className="body">
-        <ReviewsAverage/>
+        <ReviewsAverage/> <ReviewerStars/>
       </div>
     </div>
   );
