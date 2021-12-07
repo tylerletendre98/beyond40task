@@ -1,9 +1,20 @@
+.reviewsAverage-container{
+    border-right: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+
 .reviewsAverage-number{
-    font-size: 37px;
     font-style: normal;
     font-weight: bold;
 }
 
 .reviewsAverage-stars{
     color: yellow;
+}
+
+.reviewsAverage-phrase p{
+    font-size: small;
+
 }

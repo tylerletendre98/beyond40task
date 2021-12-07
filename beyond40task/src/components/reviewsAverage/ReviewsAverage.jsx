@@ -13,15 +13,15 @@ export default function ReviewsAverage() {
     const classes = useStyles()
 
     return ( 
-        <div>
+        <div className="reviewsAverage-container">
             <div className="reviewsAverage-number">
-                <h3>4.9</h3>
-                <div className="reviewsAverage-stars">
-                    <Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} />
-                </div>
-                <div>
-                    <p>Based on 3,232 reviews</p>
-                </div>
+                <h1>4.9</h1>
+            </div>
+            <div className="reviewsAverage-stars">
+                <Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} /><Star className={classes.star} />
+            </div>
+            <div className="reviewAverage-phrase">
+                <p>Based on 3,232 Reviews</p>
             </div>
         </div>
     )
